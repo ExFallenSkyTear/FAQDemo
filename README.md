@@ -8,8 +8,11 @@ FAQ.exe /fixVersion:X [/demoLenght:(0-32767)] [/logLevel:(0-4)] [/readOnly] [/ge
 
 Examples:
 FAQDemo.exe /fixVersion:65
+
 FAQDemo.exe /fixVersion:65 /demoLenght:32767
+
 FAQDemo.exe /fixVersion:65 /logLevel:4
+
 FAQDemo.exe /fixVersion:65 /demoLenght:234 /logLevel:2
 
 fixVersion:
@@ -26,10 +29,15 @@ Negative numbers are possible, but non-sense.
 
 logLevel:
 It range from 0 to 4 and represents the level of details the executable will comunicate to the user what is going on.
+
 0: Critical
+
 1: Error
+
 2: Warning
+
 3: Info
+
 4: Debug
 
 readOnly:
